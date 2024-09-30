@@ -273,7 +273,7 @@ void HSP_Loop(void)
 
     if (BOOT_Button_Pressed()) {
         printf("Enter Bootloader\n");
-        Power_Turn_Off();
+        Power_Turn_ON();
 
         l1c_dc_disable();
 
